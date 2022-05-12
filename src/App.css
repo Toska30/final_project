@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+
+.paginationBttns {
+  width: 100%;
+  height: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.paginationBttns a {
+  padding: 10px;
+  margin: 8px;
+  border-radius: 5px;
+  color: #2b2eff;
+  cursor: pointer;
+}
+
+.paginationBttns a:hover {
+  font-weight: bold;
+}
+
+.paginationActive a {
+  color: white;
+  font-weight: bold;
+}
+
+.paginationDisabled a {
+  color: grey;
+}
